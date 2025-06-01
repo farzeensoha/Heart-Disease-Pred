@@ -219,5 +219,5 @@ def user_interface():
             st.download_button("Download Report", report, file_name="heart_disease_report.txt")
 
 # Run the Streamlit app
-if _name_ == "_main_":
+if __name__ == "__main__":
     user_interface()
